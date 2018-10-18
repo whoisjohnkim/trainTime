@@ -1,15 +1,59 @@
-.table{
-    margin-top: 50px;
+body {
+    background-image: url('../images/train.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
-.container{
-    margin-bottom: 100px;
+.title {
+    font-size: 100px;
 }
 
-label {
-    margin-top: 15px;
+.description {
+    font-size: 20px;
+}
+
+.titleBox {
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 50px 0;
 }
 
 #submitButton {
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.trainForm {
+    text-align: center;
+}
+
+.tableTitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.formDiv {
+    background-color: white;
+    opacity: 0.8;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.tableDiv {
+    background-color: white;
+    opacity: 0.8;
+    padding: 50px;
+    margin: 40px 0;
+}
+
+.container {
+    width: 80%;
 }

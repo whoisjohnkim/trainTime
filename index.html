@@ -21,19 +21,14 @@
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 <body>
+    <div class="titleBox">
+        <h1 class="title">Train Times</h1>
+        <p class="description">See the train times and plan your trip accordingly! Also, add new trains if they are not represented on the list below or represented icorrectly.</p>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron">
-                    <div class="container">
-                        <h1 class="display-4">Train Times</h1>
-                        <p class="lead">See the train times and plan your trip accordingly! Also, add new trains if they are not represented on the list below or represented icorrectly.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12 formDiv">
+                <h2 class="trainForm">New Train Form</h2>
                 <label for="trainName">Train Line Name</label>
                 <input class="form-control" id="trainName" type="text" placeholder="Type Name Here">
                 <label for="trainDestination">Destination</label>
@@ -42,11 +37,12 @@
                 <input class="form-control" id="firstTime" type="text" placeholder="Default input">
                 <label for="trainFrequency">Frequency (min)</label>
                 <input class="form-control" id="trainFrequency" type="text" placeholder="Default input">
-                <button type="button" id="submitButton" class="btn btn-dark">Submit</button>
+                <button type="button" id="submitButton" class="btn btn-dark btn-lg">Submit</button>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12 tableDiv">
+                <h2 class="tableTitle">Current Trains</h2>
                 <table class="table table-hover">
                     <thead>
                         <tr>
